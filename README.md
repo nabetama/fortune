@@ -16,3 +16,7 @@ Usage of ./fortune:
 ```sh
 go install github.com/nabetama/fortune@latest
 ```
+
+## Note
+
+License of the files under `datfiles` directory A belongs to https://github.com/shlomif/fortune-mod.
