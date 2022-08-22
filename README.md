@@ -5,7 +5,10 @@ fortune command in Go.
 ## Usage
 
 ```sh
-fortune
+$ ./fortune -h
+Usage of ./fortune:
+  -m string
+        Print out all fortunes which match the basic regular expression pattern.
 ```
 
 ## Installation
