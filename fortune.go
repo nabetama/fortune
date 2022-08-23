@@ -58,6 +58,6 @@ func (c *CLI) Run(args []string) int {
 		return ExitCodeError
 	}
 
-	fmt.Println(randomOne(fortunes))
+	fmt.Fprintf(c.outStream, randomOne(fortunes))
 	return ExitCodeOK
 }
